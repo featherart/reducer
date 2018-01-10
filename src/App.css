@@ -1,0 +1,40 @@
+.App {
+  width: 100%;
+  font-family: "Trebuchet", Verdana, sans-serif;
+}
+
+.App-header {
+  background-color: #AA3939;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.App-container {
+  background-color: #6EA1C8;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Todos-container {
+  display: flex;
+  width: 70%;
+  margin-left: 20%;
+  color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: transparent;
+}
